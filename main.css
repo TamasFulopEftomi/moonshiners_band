@@ -27,6 +27,7 @@ body {
 	font-family: Raleway, sans-serif;
 	letter-spacing: .05rem;
 }
+
 /* ==== MAIN STYLES ==== */
 
 .images {
@@ -35,10 +36,14 @@ body {
 	justify-content: center;
 }
 
-.images > div {
+.images div {
 	width: 12%;
 	min-width: 8rem;
 	padding: .5rem;
+	text-align: center;
+}
+
+.images p {
 	text-align: center;
 }
 
@@ -53,7 +58,7 @@ body {
 	filter: grayscale(0);
 }
 
-.images h6 {
+.member-name {
 	margin-bottom: 0;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -65,14 +70,26 @@ hr {
 
 /* ==== HEADER STYLES ==== */
 
+.navbar-nav {
+	font-variant: small-caps;
+}
+
 .navbar-brand {
 	font-size: 1.5rem;
+}
+
+@media (min-width: 576px) {
+
+	.navbar-brand {
+		font-size: 2rem;
+	}
+	
 }
 
 @media (min-width: 992px) {
 
 	.navbar-brand {
-		font-size: 3rem;
+		font-size: 2.5rem;
 	}
 	
 }
@@ -80,7 +97,7 @@ hr {
 @media (min-width: 1200px) {
 
 	.navbar-brand {
-		font-size: 5rem;
+		font-size: 4rem;
 	}
 	
 }
