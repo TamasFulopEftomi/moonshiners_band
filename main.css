@@ -2,10 +2,11 @@
 
 * {
 	box-sizing: border-box;
+	font-size: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, p, img {
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 a {
@@ -16,6 +17,10 @@ a:hover {
 	text-decoration: none;
 	color: orange;
 }
+
+p {
+	text-align: justify;
+}
 body {
 	background-color: black;
 	color: white;
@@ -24,12 +29,10 @@ body {
 }
 /* ==== MAIN STYLES ==== */
 
-
 .images {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	border-left: 1px solid grey;
 }
 
 .images > div {
@@ -58,6 +61,22 @@ body {
 
 hr {
 	background-color: white;
+}
+
+/* ==== HEADER STYLES ==== */
+
+.navbar-brand {
+	font-size: 3rem;
+}
+
+.a {
+	display: table;
+}
+
+.b {
+	width: 100px;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 /* ==== FOOTER STYLES ==== */
