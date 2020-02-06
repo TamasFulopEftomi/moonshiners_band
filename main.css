@@ -37,7 +37,7 @@ body {
 
 .images > div {
 	width: 12%;
-	min-width: 7rem;
+	min-width: 8rem;
 	padding: .5rem;
 	text-align: center;
 }
@@ -65,19 +65,28 @@ hr {
 
 /* ==== HEADER STYLES ==== */
 
+
+
 .navbar-brand {
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
-.a {
-	display: table;
+@media (min-width: 992px) {
+
+	.navbar-brand {
+		font-size: 3rem;
+	}
+	
 }
 
-.b {
-	width: 100px;
-	display: table-cell;
-	vertical-align: middle;
+@media (min-width: 1200px) {
+
+	.navbar-brand {
+		font-size: 5rem;
+	}
+	
 }
+
 
 /* ==== FOOTER STYLES ==== */
 
