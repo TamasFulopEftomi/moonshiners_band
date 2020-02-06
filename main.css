@@ -34,7 +34,7 @@ body {
 
 .images > div {
 	width: 12%;
-	min-width: 9rem;
+	min-width: 8rem;
 	padding: .5rem;
 	text-align: center;
 }
@@ -86,13 +86,11 @@ footer small {
 
 .footer-nav a {
 	text-decoration: none;
-	color: orange;
 	margin: 0 .5rem;
 	display: inline-block;
 }
 
 .footer-nav a:hover {
-	color: yellow;
 	transition: color .15s ease-in-out;
 }
 
