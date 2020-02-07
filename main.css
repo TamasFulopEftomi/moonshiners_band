@@ -102,6 +102,19 @@ hr {
 	
 }
 
+.nav-page {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.nav-page h2::before, h2::after {
+  display: inline-block;
+  content: "";
+  height: 1px;
+  width: 26vw;
+  background-color: white;
+  vertical-align: middle;
+}
 
 /* ==== FOOTER STYLES ==== */
 
