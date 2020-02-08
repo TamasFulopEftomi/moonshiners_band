@@ -174,18 +174,17 @@ strong {
   width: 57vw;
   height: 1px;
   background-color: white;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
 }
 
 .member {
-  margin-top: 1.5rem;
   line-height: 1.5;
 }
 
 /*==== Partners HTML ==== */
 
-.nav-page-partner h2::before, h2::after {
-  width: 20vw;
+.nav-page-partner h2::before, .nav-page-partner h2::after {
+  width: 10vw;
 }
 
 .partner {
