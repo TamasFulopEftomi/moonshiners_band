@@ -184,7 +184,7 @@ strong {
 /*==== Partners HTML ==== */
 
 .nav-page-partner h2::before, .nav-page-partner h2::after {
-  width: 15vw;
+  width: 10vw;
 }
 
 .partner {
