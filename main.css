@@ -18,9 +18,10 @@ a:hover {
 	color: orange;
 }
 
-p {
+.member p {
 	text-align: justify;
 }
+
 body {
 	background-color: black;
 	color: white;
@@ -30,7 +31,14 @@ body {
 
 /* ==== MAIN STYLES ==== */
 
-section h3 {
+#news-headline {
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#member-headline {
 	text-align: center;
 }
 
@@ -111,12 +119,12 @@ hr {
   font-variant: small-caps;
 }
 
-.nav-page h2::before, h2::after {
+.nav-page h2::before, .nav-page h2::after {
   display: inline-block;
   content: "";
   height: 1px;
-  width: 26vw;
-  background-color: white;
+  width: 10vw;
+  background-color:white;
   vertical-align: middle;
 }
 
@@ -173,7 +181,7 @@ strong {
   content: "";
   width: 57vw;
   height: 1px;
-  background-color: white;
+  background-color: orange;
   margin: 0 auto 1.5rem;
 }
 
@@ -182,10 +190,6 @@ strong {
 }
 
 /*==== Partners HTML ==== */
-
-.nav-page-partner h2::before, .nav-page-partner h2::after {
-  width: 10vw;
-}
 
 .partner {
 	height: 40vh;
