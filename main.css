@@ -116,6 +116,12 @@ hr {
   vertical-align: middle;
 }
 
+.fa-soundcloud {
+	vertical-align: middle;
+	color: #ff4500;
+	padding-left: 10px;
+	}
+
 /* ==== FOOTER STYLES ==== */
 
 footer {
