@@ -30,6 +30,10 @@ body {
 
 /* ==== MAIN STYLES ==== */
 
+section h3 {
+	text-align: center;
+}
+
 .images {
 	display: flex;
 	flex-wrap: wrap;
@@ -122,6 +126,7 @@ hr {
 	padding-left: 1rem;
 	}
 
+
 /* ==== FOOTER STYLES ==== */
 
 footer {
@@ -179,7 +184,11 @@ strong {
 
 /*==== Partners HTML ==== */
 
-.partner{
+.nav-page-partner h2::before, h2::after {
+  width: 24vw;
+}
+
+.partner {
 	height: 40vh;
 	border: 1px solid grey;
 }
