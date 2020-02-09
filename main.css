@@ -179,6 +179,8 @@ strong {
 .background-wrapper {
 	background: url('assets/MoonshinersLogo.jpg') repeat center center fixed;
 	background-size: cover;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .background {
