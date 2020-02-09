@@ -176,12 +176,12 @@ strong {
 
 /* ==== MEMBERS HTML ==== */
 
-.main-wrapper {
+.background-wrapper {
 	background: url('assets/MoonshinersLogo.jpg') repeat center center fixed;
 	background-size: cover;
 }
 
-.main {
+.background {
 	background-color: rgba(0, 0, 0, .9);
 }
 
