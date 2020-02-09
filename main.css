@@ -179,12 +179,17 @@ strong {
 .background-wrapper {
 	background: url('assets/MoonshinersLogo.jpg') repeat center center fixed;
 	background-size: cover;
+}
+
+.container-fluid {
 	padding-left: 0;
 	padding-right: 0;
 }
 
 .background {
 	background-color: rgba(0, 0, 0, .9);
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .member::after {
