@@ -176,6 +176,15 @@ strong {
 
 /* ==== MEMBERS HTML ==== */
 
+.main-wrapper {
+	background: url('assets/MoonshinersLogo.jpg') repeat center center fixed;
+	background-size: cover;
+}
+
+.main {
+	background-color: rgba(0, 0, 0, .9);
+}
+
 .member::after {
   display: block;
   content: "";
