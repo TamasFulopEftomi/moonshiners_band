@@ -31,14 +31,7 @@ body {
 
 /* ==== MAIN STYLES ==== */
 
-#index-navbar {
-	position: absolute;
-	z-index: 10;
-	height: 5rem;
-	width: 100%;
-	font-weight: 700;
-	background-color: green;
-}
+
 
 #header {
 	padding-left: 0;
@@ -49,6 +42,7 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 }
+
 #news-headline {
 	color: red;
 	text-align: center;
@@ -97,6 +91,21 @@ body {
 
 hr {
 	background-color: white;
+}
+
+@media (min-width: 768px) {
+
+	#index-navbar {
+		position: absolute;
+		z-index: 10;
+		height: 5rem;
+		width: 100%;
+		background-color: rgba(0, 0, 0, .3);
+	}
+
+	#index-navbar a {
+		font-size: 1.3rem;
+	}
 }
 
 /* ==== HEADER STYLES ==== */
